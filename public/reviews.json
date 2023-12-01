@@ -1,0 +1,30 @@
+[
+    {
+        "_id": 1,
+        "name": "Samiha Akter",
+        "role": "Business Owner",
+        "details": "As a small business owner, this survey platform has been a game-changer! It’s intuitive, allowing me to create comprehensive surveys that provide invaluable insights into customer preferences. The analytics are thorough, aiding in making data-driven decisions. Highly recommended!",
+        "rating": 4
+    },
+    {
+        "_id": 2,
+        "name": "Ateka Sultana",
+        "details": "Using this polling site has streamlined our market research process immensely. Its customization options and variety of question types allow for tailored surveys. The real-time results help us swiftly adapt our strategies. A must-have tool for any marketer!",
+        "role": "Marketing Professional",
+        "rating": 4
+    },
+    {
+        "_id": 3,
+        "name": "Shopon Abdullah",
+        "details": "This platform is a gem for educators! It simplifies creating quizzes and surveys for students. The flexibility in designing assessments and the option to embed multimedia content make learning engaging. Monitoring individual progress is a breeze!",
+        "role": "Educator",
+        "rating": 5
+    },
+    {
+        "_id": 4,
+        "name": "Khadiza Zarin",
+        "details": "Being a consultant, understanding client needs is crucial. This site helps me gather precise feedback through polls. The ability to export data in various formats is invaluable for crafting insightful reports. It’s become an integral part of my client engagement process.",
+        "role": "Freelancer",
+        "rating": 3
+    }
+]

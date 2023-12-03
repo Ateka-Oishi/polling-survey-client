@@ -4,10 +4,10 @@ Client Live Link : https://insightmint.web.app
 
 Server Live Link : https://insight-mint-server.vercel.app
 
-# types of users 
-   Admin
-   User
-   ProUser
+## Types of Users 
+   **Admin**
+   **User**
+   **ProUser**
 
 # Admin: Email:: oishi@admin.com
 # Admin Password:: oishi@admin.com

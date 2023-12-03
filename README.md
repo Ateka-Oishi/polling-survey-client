@@ -52,7 +52,11 @@ Server Live Link : https://insight-mint-server.vercel.app
 * There is error page 404 route.
 * Our website is safe for users. As there is `logIn` & `registration section`. User Data will be saved.
 
-## Technologies Used
+## challenges I have faced for the Backend:
+- **Admin Issue:** One issue I encountered was setting up the admin role. Initially, I faced a minor hurdle due to an oversight on my part. I manually added a `role` field with the value `admin` in the database collection named`users_collection`. Once rectified, the creation of the admin email and password proceeded smoothly.
+
+
+## Technologies Used 
 - **MongoDB:** NoSQL database for efficient and scalable data storage.
 
 - **Express.js:** Web application framework for Node.js, providing a robust set of features for web and mobile applications.
@@ -64,6 +68,30 @@ Server Live Link : https://insight-mint-server.vercel.app
 - **JWT for authentication:** JSON Web Token implementation for secure user authentication.
 
 - **Other relevant libraries and tools:** (Please mention specific packages used in your project, such as Mongoose for MongoDB interaction, Axios for HTTP requests, etc.)
+
+# Packages 
+    "@headlessui/react": "^1.7.17",
+    "@stripe/react-stripe-js": "^2.4.0",
+    "@stripe/stripe-js": "^2.2.0",
+    "@tanstack/react-query": "^5.8.6",
+    "aos": "^2.3.4",
+    "axios": "^1.6.2",
+    "firebase": "^10.6.0",
+    "moment": "^2.29.4",
+    "qrcode": "^1.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-loader-spinner": "^5.4.5",
+    "react-preloaders": "^3.0.3",
+    "react-share": "^5.0.3",
+    "react-tabs": "^6.0.2",
+    "recharts": "^2.10.1",
+    "sweetalert2": "^11.6.13",
+    "swiper": "^11.0.5"
+
 
 
 

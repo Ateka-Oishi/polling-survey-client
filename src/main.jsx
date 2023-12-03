@@ -1,22 +1,25 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import { HelmetProvider } from 'react-helmet-async'
-import { RouterProvider } from 'react-router-dom'
-import router from './Routes/Routes'
-import AuthProvider from './Provider/AuthProvider'
-// import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import React, { useEffect } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "aos/dist/aos.css";
+import { RouterProvider } from "react-router-dom";
+import PublicRoutes from "./routers/PublicRoutes";
+import AuthProvider from "./providers/AuthProvider";
+import { Toaster } from "react-hot-toast";
+import { HelmetProvider } from "react-helmet-async";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+const queryClient = new QueryClient();
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <HelmetProvider>
-    {/* <QueryClientProvider client={QueryClient}> */}
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
     <AuthProvider>
-        <div className='md:max-w-screen-2xl  overflow-x-hidden md:mx-auto'>
-          <React.StrictMode>
-            <RouterProvider router={router} />
-          </React.StrictMode>
-        </div>
-        </AuthProvider>
-    {/* </QueryClientProvider> */}
-  </HelmetProvider>
-)
+      <QueryClientProvider client={queryClient}>
+        <HelmetProvider>
+          <Toaster />
+          <RouterProvider router={PublicRoutes} />
+        </HelmetProvider>
+      </QueryClientProvider>
+    </AuthProvider>
+  </React.StrictMode>
+);

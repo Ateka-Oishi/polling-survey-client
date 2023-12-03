@@ -5,9 +5,9 @@ Client Live Link : https://insightmint.web.app
 Server Live Link : https://insight-mint-server.vercel.app
 
 ## Types of Users 
-   **Admin**
-   **User**
-   **ProUser**
+- **Admin**
+- **User**
+- **ProUser**
 
 # Admin: Email:: oishi@admin.com
 # Admin Password:: oishi@admin.com
@@ -54,10 +54,15 @@ Server Live Link : https://insight-mint-server.vercel.app
 
 ## Technologies Used
 - **MongoDB:** NoSQL database for efficient and scalable data storage.
+
 - **Express.js:** Web application framework for Node.js, providing a robust set of features for web and mobile applications.
+
 - **React.js:** JavaScript library for building user interfaces, enabling the creation of interactive and dynamic frontEnds.
+
 - **Node.js:** Server-side JavaScript runtime, allowing the execution of JavaScript code outside a web browser.
+
 - **JWT for authentication:** JSON Web Token implementation for secure user authentication.
+
 - **Other relevant libraries and tools:** (Please mention specific packages used in your project, such as Mongoose for MongoDB interaction, Axios for HTTP requests, etc.)
 
 

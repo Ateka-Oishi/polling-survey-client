@@ -10,8 +10,8 @@ Server Live Link : https://insight-mint-server.vercel.app
 - **ProUser**
 - **Surveyor**
 
-# Admin: Email:: oishi@admin.com
-# Admin Password:: oishi@admin.com
+<!-- # Admin: Email:: oishi@admin.com -->
+<!-- # Admin Password:: oishi@admin.com -->
 
 
 ## Q&A Sections
@@ -115,7 +115,7 @@ npm run dev
 
 # Client and Server Site CODE Link
 
-- [Client](https://github.com/programming-hero-web-course1/b8a12-client-side-Ateka-Oishi) 
+- [Client](https://github.com/Ateka-Oishi/polling-survey-client) 
 
-- [Server](https://github.com/programming-hero-web-course1/b8a12-server-side-Ateka-Oishi)
+- [Server](https://github.com/Ateka-Oishi/polling-survey-server)
 

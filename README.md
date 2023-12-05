@@ -53,8 +53,8 @@ Server Live Link : https://insight-mint-server.vercel.app
 * There is error page 404 route.
 * Our website is safe for users. As there is `logIn` & `registration section`. User Data will be saved.
 
-## Challenges I have faced for the Backend:
-- **Admin Issue:** One issue I encountered was setting up the admin role. Initially, I faced a minor hurdle due to an oversight on my part. I manually added a `role` field with the value `admin` in the database collection named `users_collection`. Once rectified, the creation of the admin email and password proceeded smoothly.
+<!-- ## Challenges I have faced for the Backend:
+- **Admin Issue:** One issue I encountered was setting up the admin role. Initially, I faced a minor hurdle due to an oversight on my part. I manually added a `role` field with the value `admin` in the database collection named `users_collection`. Once rectified, the creation of the admin email and password proceeded smoothly. -->
 
 
 ## Technologies Used 

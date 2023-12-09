@@ -1,8 +1,14 @@
 # Website : InsightMint
 
-Client Live Link : https://insightmint.web.app
+# Client and Server Site CODE Link
 
-Server Live Link : https://insight-mint-server.vercel.app
+- [Client](https://github.com/Ateka-Oishi/polling-survey-client) 
+
+- [Server](https://github.com/Ateka-Oishi/polling-survey-server)
+
+- [Client Live Link](https://insightmint.web.app)
+
+-[Server Live Link](https://insight-mint-server.vercel.app)
 
 ## Types of Roles
 - **Admin**
@@ -113,9 +119,4 @@ npm run dev
 
 # Deploy on Vercel & Firebase
 
-# Client and Server Site CODE Link
-
-- [Client](https://github.com/Ateka-Oishi/polling-survey-client) 
-
-- [Server](https://github.com/Ateka-Oishi/polling-survey-server)
 
